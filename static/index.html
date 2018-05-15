@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Socket-io messenger</title>
+
+    <!-- need to include link to socket.io! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    
+  </head>
+  <body>
+
+    <div id="main_div">
+      <h1>Socket-io Messenger</h1>
+
+      <label>Chat log:
+        <textarea id="output"></textarea>
+      </label> 
+
+      <label>Name: 
+        <input type="text" id="name_input">
+      </label> 
+
+      <label>Message:
+        <input type="type" id="message_input">
+      </label>
+
+      <button id="send_btn">Send</button>
+    </div> 
+
+    <script src="/js/index.js"></script>
+   
+  </body>
+</html>

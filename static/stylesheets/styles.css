@@ -1,0 +1,16 @@
+ label{
+   display: block;
+   margin-bottom: 10px;
+ }
+
+ #output{
+   width: 250px;
+   height: 250px;
+   border: solid black 1px;
+ }
+
+ #main_div{
+  border: solid black 2px;
+  padding: 5px;
+  width: 290px;
+}
